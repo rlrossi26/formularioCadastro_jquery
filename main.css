@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(204, 149, 47);
+    color: #fff;
+    padding: 16px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+form div{
+    margin-bottom: 40px;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form input {
+    border-radius: 20px;
+    padding: 7px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+form h2 {
+    color: rgb(204, 149, 47);
+    margin-bottom: 20px;
+}
+
+form button {
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: rgb(204, 149, 47);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+form button:hover {
+    background-color: rgb(139, 104, 39);
+}
+
+#name {
+    width: 30%;
+}
+
+#cpf {
+    width: 20%;
+}
+
+#phone {
+    width: 20%;
+}
+
+#email {
+    width: 25%;
+}
+
+#adress {
+    width: 30%;
+}
+
+#number {
+    width: 7%;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(204, 149, 47);
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.span-erro {
+    margin-left: 15px;
+}
